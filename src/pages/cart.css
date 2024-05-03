@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.cart{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.cartlist{
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+}
+.cartitem {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    gap: 10px;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+
+  .pic{
+    width: 200px;
+}
+  .descrip {
+    font-size: 30px;
+}
+.countHandler input {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+.btn{
+  height: 25px;
+  width: 20px;
+}
+  

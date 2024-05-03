@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.shoptitle{
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+}
+.variety{
+    width: 100%;
+    height: 302px;
+    border-radius: 16px;
+}
+.products{
+    width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  place-items: center;
+  margin-top: 100px;
+  /* background-color: aqua; */
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 19.527%;
+    gap: 16px;
+    /* background-color: blueviolet; */
+}
+.product:hover{
+    transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.description{
+    width: 100%;
+    height: 44p;
+    gap: 4px;
+}
+.addtocart{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    width:100px;
+    /* margin-left: 70px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.addtocart:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
