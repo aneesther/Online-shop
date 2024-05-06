@@ -2,6 +2,7 @@ import {createBrowserRouter } from "react-router-dom";
 import Shop from "../pages/Shop"
 import App from "../App";
 import Cart from "../pages/Cart";
+import Checkout from "../pages/Checkout";
 
 
 
@@ -18,6 +19,10 @@ import Cart from "../pages/Cart";
             path: "/cart",
             element: <Cart/>
         },
+        {
+          path: "/checkout",
+          element: <Checkout/>
+      },
       ]
     },
   ]);
